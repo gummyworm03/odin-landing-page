@@ -58,7 +58,7 @@ p {
     margin-bottom: 10px;
 }
 
-button {
+#sign-up {
     color: white;
     background-color: #3882F6;
     padding: 10px 40px;
@@ -69,4 +69,101 @@ button {
 
 .image {
     margin-right: 100px;
+}
+
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+    
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.boxes {
+    display: flex;
+    gap: 60px;
+}
+
+.box {
+    margin-bottom: 70px;
+}
+.text {
+    width: 225px;
+    text-align: center;
+}
+
+.content-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px 450px;
+    gap: 15px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    font-size: 20px;
+    margin-left: 600px;
+}
+
+.content-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px 100px;
+}
+
+.container {
+    display: flex;
+    background-color:#3882F6;
+    height: 100px;
+    width: 1300px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sign-up-inv {
+    color: white;
+    background-color: #3882F6;
+    padding: 10px 40px;
+    border-radius: 8px;
+    font-size: 15px;
+    border-color: white;
+    border-style: solid;
+    margin-left: 50px;
+}
+
+.call-to-action {
+    margin-right: 150px;
+}
+.call {
+    color: white;
+    font-size: 22px;
+}
+
+.signup-text {
+    color: #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color :#E5E7EB;
+    background-color: #1F2937;
+    padding: 25px 50px;
+    
 }
